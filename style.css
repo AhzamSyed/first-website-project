@@ -2,17 +2,24 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: "Roboto", sans-serif;
 }
 
 .container{
   width: 80%;
-  background-color:rgb(143, 195, 255) ;
+  /* background-color:rgb(143, 195, 255) ; */
   padding:30px;
   margin: auto;
 }
-.container h1, p{
+.container h1{
   text-align: center;
   color: rgb(0, 0, 0);
+  font-size:40px ;
+}
+p{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 16px;
 }
 
 input,textarea{
@@ -37,4 +44,15 @@ form{
   font-size: 20px;
   border: 2px solid white;
   border-radius: 14px;
+  cursor: pointer;
+}
+.bg{
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.6;
+}
+.submitMsg{
+  color:green;
+  font-size: 24px;
 }
